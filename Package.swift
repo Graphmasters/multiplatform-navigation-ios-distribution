@@ -1,4 +1,4 @@
-// swift-tools-version: 5.9
+// swift-tools-version: 5.7
 
 import PackageDescription
 
@@ -12,8 +12,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MultiplatformNavigation",
-            url: "https://gmartifacts.jfrog.io/artifactory/mobile-libs-release-local/net/graphmasters/multiplatform/multiplatform-navigation-xcframework/2.0.10/MultiplatformNavigation.xcframework.zip",
-            checksum: "3c9db070cff21856116cea67ca0279944e3e90628fc4f8251d8afa258cc164ee"
+            url: "https://gmartifacts.jfrog.io/artifactory/mobile-libs-release-local/net/graphmasters/multiplatform/multiplatform-navigation-xcframework/2.0.11/MultiplatformNavigation.xcframework.zip",
+            checksum: "2d4fcc080254314fbe3df19481adcea5295a04ffe8c32f897bfcb3be2f4267fd"
         )
     ]
 )
