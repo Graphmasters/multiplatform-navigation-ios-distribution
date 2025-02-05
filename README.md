@@ -5,33 +5,10 @@
 [![SPM compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-FA7343.svg?style=flat&logo=Swift)](https://swiftpackageindex.com/maplibre/maplibre-gl-native-distribution)
 
 > **Note**  
-> This repository only exists for the purpose of binary distribution of MultiplatformNavigation for iOS on the Swift Package Manager.
-
-[MultiplatformNavigation](https://github.com/graphmasters/nunav-ios-design-system-distribution) contains all functionalities of multiplatform-navigation for iOS.
+> This repository only exists for the purpose of binary distribution of MultiplatformNavigation for iOS on the Swift Package Manager. This repositories purpose is to distribute the core navigation functionalities of NUNAV for use in public iOS SDKs.
 
 ---
 
-## Getting Started
+## NUNAV Developer
 
-NunavDesignSystem for iOS is distributed using the [Swift Package Manager](https://www.swift.org/package-manager/). To add it to your project, follow the steps below.
-
-### Package.swift
-
-1. Add the following to your dependencies.
-
-```
-dependencies: [
-    .package(url: "git@github.com:EifrigMediaGmbH/multiplatform-navigation-ios-distribution.git", from: "<VERSION>")
-]
-```
-
-2. Add the dependency to your target.
-
-```
-.target(
-    name: "Mytarget",
-    dependencies: [
-        .product(name: "MultiplatformNavigation", package: "multiplatform-navigation")
-    ]
-)
-```
+To get an overview of the NUNAV technology for developers, please visit [nunav.net](https://nunav.net).
