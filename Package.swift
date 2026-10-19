@@ -12,8 +12,8 @@ let package = Package(
       targets: [
           .binaryTarget(
               name: "MultiplatformNavigation",
-              url: "https://gmartifacts.jfrog.io/artifactory/mobile-libs-release-local/net/graphmasters/multiplatform/multiplatform-navigation-xcframework/2.3.3/MultiplatformNavigation.xcframework.zip",
-              checksum: "1b41fb9ab263a1c3087d96d83fb153cb662ecf779bb5bd6f97de693c117df788"
+              url: "https://gmartifacts.jfrog.io/artifactory/mobile-libs-release-local/net/graphmasters/multiplatform/multiplatform-navigation-xcframework/2.3.4/MultiplatformNavigation.xcframework.zip",
+              checksum: "047760d001664d6b5842eceae4fc601db0a8f651cc98b75d004d369cb7ac9ebe"
           )
       ]
 )
